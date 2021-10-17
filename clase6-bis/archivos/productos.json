@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1001,
+        "codigo": "77900361",
+        "nombre": "Westmacott",
+        "tipo": "liquido",
+        "stock": 33,
+        "precio": "15.87",
+        "fecha_de_creacion": "2021-02-09",
+        "fecha_de_modificacion": "2020-09-26"
+    },
+    {
+        "id": 1002,
+        "codigo": "77900362",
+        "nombre": "Spirit",
+        "tipo": "solido",
+        "stock": 45,
+        "precio": "66.60",
+        "fecha_de_creacion": "2020-09-18",
+        "fecha_de_modificacion": "2020-04-14"
+    },
+    {
+        "id": 1003,
+        "codigo": "77900363",
+        "nombre": "Newgrosh",
+        "tipo": "polvo",
+        "stock": 10,
+        "precio": "68.19",
+        "fecha_de_creacion": "2020-11-29",
+        "fecha_de_modificacion": "2021-10-10"
+    },
+    {
+        "id": 1004,
+        "codigo": "77900364",
+        "nombre": "McNickle",
+        "tipo": "polvo",
+        "stock": 0,
+        "precio": "53.51",
+        "fecha_de_creacion": "2020-11-28",
+        "fecha_de_modificacion": "2020-04-17"
+    },
+    {
+        "id": 1005,
+        "codigo": "77900365",
+        "nombre": "Hudd",
+        "tipo": "solido",
+        "stock": 68,
+        "precio": "66.60",
+        "fecha_de_creacion": "2020-12-19",
+        "fecha_de_modificacion": "2020-06-19"
+    },
+    {
+        "id": 1006,
+        "codigo": "77900366",
+        "nombre": "Schrader",
+        "tipo": "polvo",
+        "stock": 0,
+        "precio": "96.54",
+        "fecha_de_creacion": "2020-08-02",
+        "fecha_de_modificacion": "2020-04-18"
+    },
+    {
+        "id": 1007,
+        "codigo": "77900367",
+        "nombre": "Bachellier",
+        "tipo": "solido",
+        "stock": 59,
+        "precio": "66.60",
+        "fecha_de_creacion": "2021-01-30",
+        "fecha_de_modificacion": "2020-06-07"
+    },
+    {
+        "id": 1008,
+        "codigo": "77900368",
+        "nombre": "Fleming",
+        "tipo": "solido",
+        "stock": 38,
+        "precio": "66.60",
+        "fecha_de_creacion": "2020-10-26",
+        "fecha_de_modificacion": "2020-10-03"
+    },
+    {
+        "id": 1009,
+        "codigo": "77900369",
+        "nombre": "Hurry",
+        "tipo": "solido",
+        "stock": 44,
+        "precio": "66.60",
+        "fecha_de_creacion": "2020-07-04",
+        "fecha_de_modificacion": "2020-05-30"
+    },
+    {
+        "id": 1013,
+        "codigo": "77900311",
+        "nombre": "Chocolate",
+        "tipo": "solido",
+        "stock": 33,
+        "precio": "66.60",
+        "fecha_de_creacion": "2021-09-28",
+        "fecha_de_modificacion": "2021-09-28"
+    },
+    {
+        "id": 1014,
+        "codigo": "77900563",
+        "nombre": "Cofler",
+        "tipo": "Chocolate",
+        "stock": 400,
+        "precio": "109.99",
+        "fecha_de_creacion": "2021-10-10",
+        "fecha_de_modificacion": "2021-10-10"
+    }
+]

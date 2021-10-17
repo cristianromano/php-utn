@@ -1,0 +1,14 @@
+[
+    {
+        "id_venta": 2074,
+        "codigo_producto": "DFFS",
+        "id_usuario": 52,
+        "cantidad_items": 5
+    },
+    {
+        "id_venta": 2607,
+        "codigo_producto": "DFFS",
+        "id_usuario": 52,
+        "cantidad_items": 10
+    }
+]

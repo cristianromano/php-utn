@@ -1,0 +1,74 @@
+[
+    {
+        "id_usuario": 106,
+        "nombre": "Bili",
+        "apellido": "Baus",
+        "clave": 123,
+        "mail": "bhoff5@addthis.com",
+        "fecha_de_registro": "2020-11-27",
+        "localidad": "Moreno"
+    },
+    {
+        "id_usuario": 105,
+        "nombre": "Garrick",
+        "apellido": "Brent",
+        "clave": 6789,
+        "mail": "gbrent4@theguardiam.",
+        "fecha_de_registro": "2020-12-17",
+        "localidad": "Moron"
+    },
+    {
+        "id_usuario": 103,
+        "nombre": "Deloris",
+        "apellido": "Fosis",
+        "clave": 5678,
+        "mail": "bsharpe2@wisc.edu",
+        "fecha_de_registro": "2020-11-28",
+        "localidad": "Avellaneda"
+    },
+    {
+        "id_usuario": 102,
+        "nombre": "German",
+        "apellido": "Gerram",
+        "clave": 1234,
+        "mail": "ggerram1@hud.gov",
+        "fecha_de_registro": "2020-05-08",
+        "localidad": "Berazategui"
+    },
+    {
+        "id_usuario": 101,
+        "nombre": "Esteban",
+        "apellido": "Madou",
+        "clave": 2345,
+        "mail": "dkantor0@example.com",
+        "fecha_de_registro": "2021-01-07",
+        "localidad": "Quilmes"
+    },
+    {
+        "id_usuario": 104,
+        "nombre": "Brok",
+        "apellido": "Neiner",
+        "clave": 4567,
+        "mail": "bblazic3@desdev.cn",
+        "fecha_de_registro": "2020-12-08",
+        "localidad": "Quilmes"
+    },
+    {
+        "id_usuario": 167,
+        "nombre": "Cristian",
+        "apellido": "Romano",
+        "clave": 777,
+        "mail": "cromano94@gmail.com",
+        "fecha_de_registro": "2021-10-10",
+        "localidad": "CABA"
+    },
+    {
+        "id_usuario": 53,
+        "nombre": "Cristiano",
+        "apellido": "Ronaldo",
+        "clave": 710,
+        "mail": "cronaldo7@gmail.com",
+        "fecha_de_registro": "2021-10-10",
+        "localidad": "Capital Federal"
+    }
+]

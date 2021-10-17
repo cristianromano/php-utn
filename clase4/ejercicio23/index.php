@@ -13,30 +13,34 @@
 // Cada usuario se agrega en un renglón diferente al anterior.
 // Hacer los métodos necesarios en la clase usuario.
 
-require_once "usuario.php";
+require_once "usuarios.php";
 
 
-// $nombre = $_POST['nombre'];
-// $apellido = $_POST['apellido'];
-// $mail = $_POST['mail'];
-// $dir_subida = 'Usuario/Fotos/';
-// $fichero_subido = $dir_subida . basename($_FILES['foto']['name']);
-$opcion = $_POST['opcion'];
+$nombre = $_POST['nombre'];
+$apellido = $_POST['apellido'];
+$mail = $_POST['mail'];
+$dir_subida = 'Usuario/Fotos/';
+$fichero_subido = $dir_subida . basename($_FILES['foto']['name']);
+// $opcion = $_POST['opcion'];
 
 
-// if (!file_exists($dir_subida)) {
-//     mkdir('Usuario/Fotos/', 0777, true);   
-// }
-
-// if(isset($nombre) && isset($apellido) && isset($mail) && move_uploaded_file($_FILES['foto']['tmp_name'], $fichero_subido) ){
-    
-//     $usuario = new usuario($nombre,$apellido,$mail,$_FILES['foto']['name']);
-//     usuario::guardarJSON($usuario);
-//     echo 'login exitoso';
-// }
-
-switch($opcion){
-    case 'leer':
-        usuario::leerJSON();
-        break;
+if (!file_exists($dir_subida)) {
+    mkdir('Usuario/Fotos/', 0777, true);   
 }
+
+if(isset($nombre) && isset($apellido) && isset($mail) && move_uploaded_file($_FILES['foto']['tmp_name'], $fichero_subido) ){
+    
+    $usuario = new usuario($nombre,$apellido,$mail,$_FILES['foto']['name']);
+        $arr = json_decode(file_get_contents('./archivos/clientes.json',true));
+        array_push($arr,$usuario);
+    usuario::guardarJSON($arr);
+    echo 'login exitoso';
+}
+
+// switch($opcion){
+//     case 'leer':
+//         Usuario::leerJSON();
+//         break;
+// }
+
+?>

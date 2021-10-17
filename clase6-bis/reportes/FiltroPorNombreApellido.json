@@ -1,0 +1,11 @@
+[
+    {
+        "id_usuario": 53,
+        "nombre": "Cristiano",
+        "apellido": "Ronaldo",
+        "clave": 710,
+        "mail": "cronaldo7@gmail.com",
+        "fecha_de_registro": "2021-10-10",
+        "localidad": "Capital Federal"
+    }
+]

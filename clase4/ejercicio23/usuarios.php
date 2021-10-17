@@ -13,7 +13,7 @@
 // Cada usuario se agrega en un renglón diferente al anterior.
 // Hacer los métodos necesarios en la clase usuario.
 
-class usuario
+class Usuario
 {
 
     public $_nombre;
@@ -35,13 +35,13 @@ class usuario
 
     public static function guardarJSON($objeto)
     {
-        // $json_string = json_encode($objeto).PHP_EOL;
-        // $file = './archivos/clientes.json';
-        // file_put_contents($file, $json_string, FILE_APPEND);
-        $archivoJSON = fopen('./archivos/clientes.json','a');
-        $objetoJSON = json_encode($objeto).PHP_EOL;
-        fwrite($archivoJSON,$objetoJSON);
-        fclose($archivoJSON);
+        $json_string = json_encode($objeto);
+        $file = './archivos/clientes.json';
+        file_put_contents($file, $json_string);
+        // $archivoJSON = fopen('./archivos/clientes.json','a');
+        // $objetoJSON = json_encode($objeto).PHP_EOL;
+        // fwrite($archivoJSON,$objetoJSON);
+        // fclose($archivoJSON);
     }
 
     public static function leerJSON()
@@ -52,27 +52,30 @@ class usuario
 
         //     echo $cliente . "<br>";
         // }
-        $cadena = '';
-        $arrayUsuarios = usuario::ObtenerUsuariosJSON();
-        $cadena .= '<ul>';
+        $datos_productos = file_get_contents('./archivos/productos.json');
+        $arrayUsuarios = json_decode($datos_productos, true);
+
+        echo '<ul>';
         foreach ($arrayUsuarios as $usuario) {
-           $cadena.= '<li>nombre:'. $usuario['_nombre'] . " apellido: ". $usuario['_apellido'] . " ID:" . $usuario['_id'] . '<img src="'.$usuario["_imagen"] .'" /></li>';
+          echo '<li>nombre:'. $usuario['_nombre'] . " apellido: ". $usuario['_apellido'] . " ID:" . $usuario['_id'] . '<img src="'.$usuario["_imagen"] .'" /></li>';
         }       
-        $cadena.= '<ul>';
-        echo $cadena;
+        echo '<ul>';
     }
 
     
     public static function ObtenerUsuariosJson(){
-        $nombreArchivo = './archivos/clientes.json';
-        $arrayUsuarios = array();
-        $archivo = fopen($nombreArchivo, 'r');
-        while(!feof($archivo)){
-            $linea = fgets($archivo);
-            $usuario = json_decode($linea, true);
-            array_push($arrayUsuarios, $usuario);
-        }
-        fclose($archivo);
+        // $nombreArchivo = './archivos/clientes.json';
+        // $arrayUsuarios = array();
+        // $archivo = fopen($nombreArchivo, 'r');
+        // while(!feof($archivo)){
+        //     $linea = fgets($archivo);
+        //     $usuario = json_decode($linea, true);
+        //     array_push($arrayUsuarios, $usuario);
+        // }
+        // fclose($archivo);
+        // return $arrayUsuarios;
+        $datos_productos = file_get_contents('./archivos/clientes.json');
+        $arrayUsuarios = json_decode($datos_productos, true);
         return $arrayUsuarios;
     }
 
@@ -82,3 +85,6 @@ class usuario
 
 
 }
+
+
+?>

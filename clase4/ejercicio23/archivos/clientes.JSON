@@ -1,2 +1,20 @@
-{"_nombre":"cristian","_apellido":"romano","_mail":"cristianromano2@gmail.com","_id":1,"_fecha":"09.16.21","_imagen":"foto.jpg"}
-{"_nombre":"luca","_apellido":"romano","_mail":"lucaromano@gmail.com","_id":22,"_fecha":"09.16.21","_imagen":"foto.jpg"}
+[
+    {
+        "_nombre": "luca",
+        "_apellido": null,
+        "_mail": "lucaromano@gmail.com",
+        "_id": 52,
+        "_fecha": "10.06.21",
+        "_imagen": "foto.jpg",
+        "_clave": "romano"
+    },
+    {
+        "_nombre": "cristian",
+        "_apellido": null,
+        "_mail": "cristianromano2@gmail.com",
+        "_id": 16,
+        "_fecha": "10.10.21",
+        "_imagen": "foto.jpg",
+        "_clave": "romano"
+    }
+]

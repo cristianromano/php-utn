@@ -1,0 +1,68 @@
+[
+    {
+        "id_producto": 1001,
+        "id_usuario": 101,
+        "nombreProducto": "Westmacott",
+        "nombre": "Esteban"
+    },
+    {
+        "id_producto": 1008,
+        "id_usuario": 102,
+        "nombreProducto": "Fleming",
+        "nombre": "German"
+    },
+    {
+        "id_producto": 1007,
+        "id_usuario": 102,
+        "nombreProducto": "Bachellier",
+        "nombre": "German"
+    },
+    {
+        "id_producto": 1006,
+        "id_usuario": 103,
+        "nombreProducto": "Schrader",
+        "nombre": "Deloris"
+    },
+    {
+        "id_producto": 1003,
+        "id_usuario": 104,
+        "nombreProducto": "Newgrosh",
+        "nombre": "Brok"
+    },
+    {
+        "id_producto": 1005,
+        "id_usuario": 105,
+        "nombreProducto": "Hudd",
+        "nombre": "Garrick"
+    },
+    {
+        "id_producto": 1003,
+        "id_usuario": 104,
+        "nombreProducto": "Newgrosh",
+        "nombre": "Brok"
+    },
+    {
+        "id_producto": 1003,
+        "id_usuario": 106,
+        "nombreProducto": "Newgrosh",
+        "nombre": "Bili"
+    },
+    {
+        "id_producto": 1002,
+        "id_usuario": 106,
+        "nombreProducto": "Spirit",
+        "nombre": "Bili"
+    },
+    {
+        "id_producto": 1001,
+        "id_usuario": 106,
+        "nombreProducto": "Westmacott",
+        "nombre": "Bili"
+    },
+    {
+        "id_producto": 1014,
+        "id_usuario": 53,
+        "nombreProducto": "Cofler",
+        "nombre": "Cristiano"
+    }
+]

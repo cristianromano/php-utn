@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "luca",
+        "apellido": "romano",
+        "mail": "lucaromano@gmail.com",
+        "id": 52,
+        "fecha": "10.06.21",
+        "imagen": "foto.jpg"
+    },
+    {
+        "nombre": "cristian",
+        "apellido": "romano",
+        "mail": "cristianromano2@gmail.com",
+        "id": 16,
+        "fecha": "10.10.21",
+        "imagen": "foto.jpg"
+    }
+]

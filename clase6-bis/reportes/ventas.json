@@ -1,0 +1,26 @@
+[
+    {
+        "id_producto": 1001,
+        "id_usuario": 101,
+        "cantidad": 2,
+        "fecha_de_venta": "2020-07-19"
+    },
+    {
+        "id_producto": 1008,
+        "id_usuario": 102,
+        "cantidad": 3,
+        "fecha_de_venta": "2020-08-16"
+    },
+    {
+        "id_producto": 1007,
+        "id_usuario": 102,
+        "cantidad": 4,
+        "fecha_de_venta": "2021-01-24"
+    },
+    {
+        "id_producto": 1006,
+        "id_usuario": 103,
+        "cantidad": 5,
+        "fecha_de_venta": "2021-01-14"
+    }
+]

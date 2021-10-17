@@ -1,0 +1,26 @@
+[
+    {
+        "codigo": "DFFS",
+        "nombre": "Leche Sancor",
+        "tipo": "Leche",
+        "stock": 30,
+        "precio": 49.99,
+        "id": 2711
+    },
+    {
+        "codigo": "SFF",
+        "nombre": "Galletitas Bagley",
+        "tipo": "Galletitas",
+        "stock": 2,
+        "precio": 69.99,
+        "id": 8927
+    },
+    {
+        "codigo": "SFF",
+        "nombre": "Fideos Luchetti",
+        "tipo": "Pastas",
+        "stock": 2,
+        "precio": 9.99,
+        "id": 7522
+    }
+]
